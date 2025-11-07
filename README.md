@@ -30,4 +30,64 @@ It enables customers to estimate fares, book rides easily, and manage their ride
 ---
 
 ## 🧩 Project Structure
+Auto-Sarathi/
+│
+├── Backend/ # Node.js backend (API, MongoDB, Auth)
+├── Frontend/ # React frontend (UI, components, pages)
+│ ├── src/
+│ │ ├── components/
+│ │ ├── Pages/
+│ │ └── utils/
+│ ├── public/
+│ └── package.json
+├── .gitignore
+├── package-lock.json
+└── README.md
+
+
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/SM71234/Auto-Sarathi.git
+cd Auto-Sarathi
+
+2️⃣ Run the Backend
+cd Backend
+npm install
+npm start
+
+3️⃣ Run the Frontend
+cd ../Frontend
+npm install
+npm run dev
+
+
+🧠 Future Enhancements
+
+Real-time GPS tracking of autos 🚙
+
+Driver onboarding & verification 🔐
+
+In-app wallet & payment integration 💳
+
+Multilingual support 🌏
+
+👨‍💻 Developed By
+
+Sankalp Misal
+Prajwal Pawar
+Tejas Dhole
+Sonali Patil
+
+⭐ Contributing
+
+Contributions are always welcome!
+Fork the repo, create a feature branch, and submit a pull request.
+
+“Simplifying local rides with smart automation — that’s the Auto-Sarathi way.”
+
 
